@@ -1,0 +1,54 @@
+2017-03-22T22:29:11.380927954 0.190242s notice: Recursively removing directory /home/wellington/walmart/rethinkdb_data/tmp
+2017-03-22T22:29:11.422691060 0.232004s notice: Initializing directory /home/wellington/walmart/rethinkdb_data
+2017-03-22T22:29:11.422795032 0.232108s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/wellington/walmart/rethinkdb_data' did not already exist or is empty.)
+2017-03-22T22:29:11.422861280 0.232174s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-03-22T22:29:11.425380394 0.234695s notice: Running on Linux 4.4.0-66-generic x86_64
+2017-03-22T22:29:11.425441505 0.234754s notice: Loading data from directory /home/wellington/walmart/rethinkdb_data
+2017-03-22T22:29:11.863539749 0.672853s info: Automatically using cache size of 1854 MB
+2017-03-22T22:29:11.864837847 0.674151s notice: Listening for intracluster connections on port 29015
+2017-03-22T22:29:11.916517130 0.725830s notice: Listening for client driver connections on port 28015
+2017-03-22T22:29:11.916648648 0.725962s notice: Listening for administrative HTTP connections on port 8080
+2017-03-22T22:29:11.916650756 0.725964s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-03-22T22:29:11.916651241 0.725964s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-03-22T22:29:11.916654308 0.725967s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-03-22T22:29:11.916655977 0.725969s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-22T22:29:11.916658733 0.725972s notice: Server ready, "wellington_Inspiron_5558_5ah" 00c745c5-ff9d-4e2e-9348-f26cadda9c16
+2017-03-22T22:29:48.047985435 36.857299s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-03-22T22:29:48.048103710 36.857417s notice: Shutting down client connections...
+2017-03-22T22:29:48.048248589 36.857562s notice: All client connections closed.
+2017-03-22T22:29:48.048253504 36.857567s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-03-22T22:29:48.071810500 36.881124s notice: Storage engine shut down.
+2017-03-23T09:37:19.413208308 0.154582s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-03-23T09:37:19.434205808 0.175582s notice: Running on Linux 4.4.0-66-generic x86_64
+2017-03-23T09:37:19.434274544 0.175648s notice: Loading data from directory /home/wellington/walmart/rethinkdb_data
+2017-03-23T09:37:19.692421436 0.433795s info: Automatically using cache size of 1950 MB
+2017-03-23T09:37:19.693497521 0.434871s notice: Listening for intracluster connections on port 29015
+2017-03-23T09:37:19.740873395 0.482247s notice: Listening for client driver connections on port 28015
+2017-03-23T09:37:19.741005660 0.482379s notice: Listening for administrative HTTP connections on port 8080
+2017-03-23T09:37:19.741010801 0.482384s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-03-23T09:37:19.741011373 0.482385s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-03-23T09:37:19.741014544 0.482388s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-03-23T09:37:19.741016166 0.482389s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-03-23T09:37:19.741019317 0.482393s notice: Server ready, "wellington_Inspiron_5558_5ah" 00c745c5-ff9d-4e2e-9348-f26cadda9c16
+2017-03-23T10:02:41.505402332 1522.246776s info: Table 0f7f7b7c-d7b5-48c4-9d9c-c8e614849faa: Starting a new Raft election for term 1.
+2017-03-23T10:02:41.506023086 1522.247397s info: Table 0f7f7b7c-d7b5-48c4-9d9c-c8e614849faa: Added replica on this server.
+2017-03-23T10:02:41.617483727 1522.358857s info: Table 0f7f7b7c-d7b5-48c4-9d9c-c8e614849faa: This server is Raft leader for term 1. Latest log index is 0.
+2017-03-23T11:30:20.849304420 6781.590678s notice: Removing file /home/wellington/walmart/rethinkdb_data/0f7f7b7c-d7b5-48c4-9d9c-c8e614849faa
+2017-03-23T11:30:20.849310691 6781.590684s info: Table 0f7f7b7c-d7b5-48c4-9d9c-c8e614849faa: Deleted the table.
+2017-03-23T14:23:12.839187592 14041.559419s info: Table 75909d59-3f95-4230-9265-59094ba80c40: Starting a new Raft election for term 1.
+2017-03-23T14:23:12.839319151 14041.559550s info: Table 75909d59-3f95-4230-9265-59094ba80c40: Added replica on this server.
+2017-03-23T14:23:12.888746897 14041.608978s info: Table 75909d59-3f95-4230-9265-59094ba80c40: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-07T20:13:16.086247376 0.110159s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2017-04-07T20:13:16.107025593 0.130939s notice: Running on Linux 4.4.0-71-generic x86_64
+2017-04-07T20:13:16.107099031 0.131010s notice: Loading data from directory /home/wellington/walmart/rethinkdb_data
+2017-04-07T20:13:16.332146989 0.356058s info: Automatically using cache size of 1831 MB
+2017-04-07T20:13:16.333075384 0.356987s notice: Listening for intracluster connections on port 29015
+2017-04-07T20:13:16.624919229 0.648831s notice: Listening for client driver connections on port 28015
+2017-04-07T20:13:16.625112610 0.649024s notice: Listening for administrative HTTP connections on port 8080
+2017-04-07T20:13:16.625179472 0.649091s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-04-07T20:13:16.625181747 0.649093s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-04-07T20:13:16.625184835 0.649096s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-04-07T20:13:16.625187603 0.649099s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-07T20:13:16.625197335 0.649108s notice: Server ready, "wellington_Inspiron_5558_5ah" 00c745c5-ff9d-4e2e-9348-f26cadda9c16
+2017-04-07T20:13:17.781001783 1.804913s info: Table 75909d59-3f95-4230-9265-59094ba80c40: Starting a new Raft election for term 2.
+2017-04-07T20:13:17.832627404 1.856539s info: Table 75909d59-3f95-4230-9265-59094ba80c40: This server is Raft leader for term 2. Latest log index is 3.
