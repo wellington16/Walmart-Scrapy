@@ -17,7 +17,7 @@ $ scrapy crawl wal -o resultado.json -t json
 #### Índice
   * [Objetivos](https://github.com/wellington16/Walmart-Scrapy/blob/master/README.md#objetivos)
   * Arquivos:
-      * [pontoFrio.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/spiders/wal.py)
+      * [Walmart.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/spiders/wal.py)
       * [pipelines.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/pipelines.py)
       * [settings.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/settings.py)
       * [items.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/items.py)
@@ -35,7 +35,7 @@ $ scrapy crawl wal -o resultado.json -t json
 - [x] Utilização de logs para sinalizar ocorrências durante o scraping
 
 
-#### Arquivo: [pontoFrio.py](https://github.com/wellington16/PontoFrio-Scrapy/blob/master/pontofrio/spiders/spider-pontoFrio.py)
+#### Arquivo: [Walmart.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/spiders/wal.py)
 ```python 
 # # -*- coding: utf-8 -*-
 import scrapy
@@ -94,7 +94,7 @@ class WalmartSpider(scrapy.Spider):
         yield item
 ```
 
-#### Arquivo: [pipelines.py](https://github.com/wellington16/PontoFrio-Scrapy/blob/master/pontofrio/pipelines.py)
+#### Arquivo: [pipelines.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/pipelines.py)
 ```python
 # -*- coding: utf-8 -*-
 
@@ -142,7 +142,7 @@ class WalmartPipeline(object):
 
 ```
 
-#### Arquivo: [settings.py](https://github.com/wellington16/PontoFrio-Scrapy/blob/master/pontofrio/settings.py)
+#### Arquivo: [settings.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/settings.py)
 ```python
 # -*- coding: utf-8 -*-
 
@@ -236,7 +236,7 @@ ITEM_PIPELINES = {'walmart.pipelines.WalmartPipeline': 1}
 
 ```
 
-#### Arquivo: [items.py](https://github.com/wellington16/PontoFrio-Scrapy/blob/master/pontofrio/items.py)
+#### Arquivo: [items.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/items.py)
 ```python
 # -*- coding: utf-8 -*-
 
