@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa0dbafe-4403-482e-a895-b8f092abedf7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/walmart/items.py" afterPath="$PROJECT_DIR$/walmart/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/walmart/spiders/wal.py" afterPath="$PROJECT_DIR$/walmart/spiders/wal.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3286">
-                <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -421,8 +419,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3286">
-            <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />

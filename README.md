@@ -17,7 +17,7 @@ $ scrapy crawl wal -o resultado.json -t json
 #### Índice
   * [Objetivos](https://github.com/wellington16/Walmart-Scrapy/blob/master/README.md#objetivos)
   * Arquivos:
-      * [pontoFrio.py](https://github.com/wellington16/PontoFrio-Scrapy/blob/master/pontofrio/spiders/spider-pontoFrio.py)
+      * [pontoFrio.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/spiders/wal.py)
       * [pipelines.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/pipelines.py)
       * [settings.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/settings.py)
       * [items.py](https://github.com/wellington16/Walmart-Scrapy/blob/master/walmart/items.py)
