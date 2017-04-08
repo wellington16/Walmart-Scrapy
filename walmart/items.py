@@ -9,7 +9,6 @@ import scrapy
 
 
 class WalmartItem(scrapy.Item):
-    # define the fields for your item here like:
     name = scrapy.Field()
     precoAtual = scrapy.Field()
     url = scrapy.Field()

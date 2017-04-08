@@ -1,8 +1,6 @@
 # # -*- coding: utf-8 -*-
 import scrapy
 
-from scrapy.spiders import BaseSpider
-from scrapy.selector import HtmlXPathSelector
 from walmart.items import WalmartItem
 import logging
 
