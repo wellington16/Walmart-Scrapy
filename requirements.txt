@@ -86,7 +86,7 @@ statsmodels==0.6.1
 tables==3.2.2
 Twisted==16.0.0
 unity-lens-photos==1.0
-urllib3==1.13.1
+urllib3==1.24.2
 virtualenv==15.1.0
 w3lib==1.17.0
 wrapt==1.8.0
