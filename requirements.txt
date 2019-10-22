@@ -46,7 +46,7 @@ pandas==0.17.1
 parsel==1.1.0
 patsy==0.4.1
 pexpect==4.0.1
-Pillow==3.1.2
+Pillow==6.2.0
 psutil==3.4.2
 ptyprocess==0.5
 py==1.4.31
