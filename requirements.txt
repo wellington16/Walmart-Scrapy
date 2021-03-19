@@ -26,7 +26,7 @@ ipaddress==1.0.18
 ipython==2.4.1
 jdcal==1.0
 jedi==0.9.0
-Jinja2==2.8
+Jinja2==2.11.3
 joblib==0.9.4
 lazy-object-proxy==1.2.1
 logilab-common==1.1.0
