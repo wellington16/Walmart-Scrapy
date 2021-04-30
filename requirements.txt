@@ -84,7 +84,7 @@ spyder==2.3.8
 sqlparse==0.1.18
 statsmodels==0.6.1
 tables==3.2.2
-Twisted==16.0.0
+Twisted==20.3.0
 unity-lens-photos==1.0
 urllib3==1.13.1
 virtualenv==15.1.0
