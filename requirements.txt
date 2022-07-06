@@ -30,7 +30,7 @@ Jinja2==2.8
 joblib==0.9.4
 lazy-object-proxy==1.2.1
 logilab-common==1.1.0
-lxml==3.7.3
+lxml==4.9.1
 MarkupSafe==0.23
 matplotlib==1.5.1
 mercurial==3.7.3
